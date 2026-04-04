@@ -1,6 +1,6 @@
 {
   "Peter": {
-    "dp": 270,
+    "dp": 220,
     "tier": 3,
     "unlocked_packs": [
       "Starter Pack 1"
@@ -10,7 +10,7 @@
       "Axe Raider": 3,
       "Dark Magician": 3,
       "Celtic Guardian": 3,
-      "Baby Dragon": 2,
+      "Baby Dragon": 3,
       "Blue-Eyes White Dragon": 1
     },
     "beat_counts": {

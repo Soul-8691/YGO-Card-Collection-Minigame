@@ -1,0 +1,219 @@
+20th Secret Rare
+C
+C, CR
+C, NPR
+C, ScR
+C,UR
+CAN:D
+Collector's Rare
+Common
+Common, Collector's Rare
+Common, Gold Rare, Gold Secret Rare
+Common, Normal Parallel Rare
+Common, Normal Parallel Rare, Prismatic Secret Rare
+Common, Normal Parallel Rare, Secret Rare
+Common, Normal Parallel Rare, Ultra Parallel Rare
+Common, Quarter Century Secret Rare
+Common, Secret Rare
+Common, Ultimate Rare
+Common, Ultra Rare
+Common, Ultra Rare, Secret Rare
+Common,Mosaic Rare
+Common,Shatterfoil Rare
+CR
+DNPR
+DNRPR
+DRPR
+DSPR
+Duel Terminal Normal Parallel Rare
+Duel Terminal Normal Rare Parallel Rare
+Duel Terminal Rare Parallel Rare
+Duel Terminal Super Parallel Rare
+Duel Terminal Ultra Parallel Rare
+Duel Terminal Ultra Parallel Rare, Duel Terminal Secret Parallel Rare
+DUPR
+DUPR, DScPR
+EScR
+Extra Secret Parallel Rare
+Extra Secret Rare
+GGR
+Ghost Rare
+Gold Rare
+Gold Rare, Gold Secret Rare
+Gold Secret Rare
+GR
+GUR
+HGR
+Holographic Rare
+Kaiba Corporation Common
+Kaiba Corporation Rare
+Kaiba Corporation Ultra Rare
+KCC
+Millennium Gold Rare
+Millennium Rare
+Millennium Ultra Rare, Ultimate Rare
+Mosaic Rare
+MR
+Normal Parallel Rare
+Normal Parallel Rare, Secret Parallel Rare
+Normal Parallel Rare, Secret Rare
+Normal Parallel Rare, Secret Rare, Prismatic Secret Rare
+Normal Parallel Rare, Secret Rare, Ultimate Rare
+Normal Parallel Rare, Super Parallel Rare, Secret Parallel Rare
+Normal Parallel Rare, Super Rare, Secret Rare
+Normal Parallel Rare, Super Rare, Secret Rare, Quarter Century Secret Rare
+Normal Parallel Rare, Ultra Parallel Rare, Secret Parallel Rare
+Normal Parallel Rare, Ultra Parallel Rare, Secret Parallel Rare, Quarter Century Secret Rare
+Normal Rare
+Normal Rare, Gold Rare
+Normal Rare, Gold Rare, Gold Secret Rare
+Normal Rare, Gold Secret Rare
+NPR
+NPR, QCScR
+NPR, ScR
+NPR, UR, PScR
+NPR, UR, UtR, ScR
+PGR
+Platinum Rare
+Platinum Secret Rare
+PlScR
+PlScR, UtR, Cr
+Premium Gold Rare
+Prismatic Secret Rare
+PScR
+QCScR
+Quarter Century Secret Rare
+R
+R, CR
+R, StR
+R,UtR
+Rare
+Rare Parallel Rare
+Rare, Collector's Rare
+Rare, Prismatic Secret Rare
+Rare, Quarter Century Secret Rare
+Rare, Secret Rare
+Rare, Starlight Rare
+Rare, Super Rare
+Rare, Super Rare, Collector's Rare
+Rare, Ultimate Rare
+Rare,Mosaic Rare
+Rare,Shatterfoil Rare
+Rare,Ultimate Rare
+ScR
+ScR, CR, PGR
+ScR, QCScR
+ScR, StR
+ScR,GR
+ScR,UtR
+ScR,UtR,GR
+ScRBlue
+Secret Order
+Secret Rare
+Secret Rare, Collector's Rare
+Secret Rare, Ghost Rare
+Secret Rare, Prismatic Secret Rare
+Secret Rare, Quarter Century Secret Rare
+Secret Rare, Starlight Rare
+Secret Rare, Ultimate Rare
+Secret Rare, Ultra Parallel Rare
+Secret Rare,Ultimate Rare
+Secret Rare,Ultimate Rare,Ghost Rare
+SFR
+Shatterfoil Rare
+Short Print
+SHR
+SP
+SPR
+SR
+SR, CR
+SR, PScR
+SR, QCScR
+SR, ScR
+SR, ScR, CR
+SR, StR
+SR, UR
+SR, UR, ScR
+SR, UR, ScR, PlScR, UtR, CR
+SR, UtR, CR, ScR, EScR, QCScR
+SR,UtR
+SSP
+Starfoil
+Starfoil Rare
+Starlight Rare
+StR
+Super Parallel Rare
+Super Parallel Rare, Secret Parallel Rare
+Super Parallel Rare, Secret Parallel Rare, Prismatic Secret Rare
+Super Rare
+Super Rare, Collector's Rare
+Super Rare, Collector's Rare, Starlight Rare
+Super Rare, Prismatic Secret Rare
+Super Rare, Quarter Century Secret Rare
+Super Rare, Secret Rare
+Super Rare, Secret Rare, Collector's Rare
+Super Rare, Secret Rare, Collector's Rare, Prismatic Secret Rare
+Super Rare, Secret Rare, Prismatic Secret Rare
+Super Rare, Secret Rare, Prismatic Secret Rare, Collector's Rare
+Super Rare, Secret Rare, Prismatic Secret Rare, Ultimate Rare
+Super Rare, Secret Rare, Quarter Century Secret Rare
+Super Rare, Secret Rare, Ultimate Rare, Prismatic Secret Rare
+Super Rare, Secret Rare, Ultimate Rare, Quarter Century Secret Rare
+Super Rare, Starlight Rare
+Super Rare, Ultimate Rare
+Super Rare, Ultra Rare
+Super Rare, Ultra Rare, Secret Rare, PLatinum Secret Rare, Ultimate Rare, Collector's Rare
+Super Short Print
+Ultimate Rare
+Ultimate Rare, Collector's Rare
+Ultimate Rare, Prismatic Secret Rare
+Ultimate Rare, Quarter Century Secret Rare
+Ultimate Rare, Secret Rare, Collector's Rare
+Ultra Parallel Rare
+Ultra Parallel Rare, Secret Parallel Rare, Prismatic Secret Rare
+Ultra Rare
+Ultra Rare (Special Purple Version)
+Ultra Rare, 20th Secret Rare
+Ultra Rare, Collector's Rare
+Ultra Rare, Collector's Rare, Quarter Century Secret Rare
+Ultra Rare, Collector's Rare, Starlight Rare
+Ultra Rare, Prismatic Secret Rare
+Ultra Rare, Prismatic Secret Rare, Grand Master Rare
+Ultra Rare, Quarter Century Secret Rare
+Ultra Rare, Secret Rare
+Ultra Rare, Secret Rare, Collector's Rare
+Ultra Rare, Secret Rare, Prismatic Secret Rare
+Ultra Rare, Secret Rare, Quarter Century Secret Rare
+Ultra Rare, Secret Rare, Ultimate Rare, Quarter Century Secret Rare
+Ultra Rare, Starlight Rare
+Ultra Rare, Ultimate Rare
+Ultra Rare, Ultimate Rare, Ghost Rare
+Ultra Rare, Ultra Parallel Rare
+Ultra Rare, Ultra Parallel Rare, Ultimate Rare
+Ultra Rare,Quarter Century Secret Rare
+Ultra Rare,Ultimate Rare
+Ultra Rare,Ultimate Rare,Ghost Rare
+Ultra Secret Rare
+UR
+UR, Common
+UR, CR
+UR, GR
+UR, PGR
+UR, PScR
+UR, QCScR
+UR, ScR
+UR, ScR, CR
+UR, ScR, CR, PGR
+UR, StR
+UR, URPR
+UR, UtR
+UR, UtR, CR, ScR, EScR, QCScR
+UR, UtR, CR, ScR, EScR, QCScR, HGR
+UR, UtR, GR
+UR,UPR
+UR,UtR
+UR,UtR,GR
+URPR
+UtR
+UtR, CR
+UtR,C
