@@ -1,25 +1,9 @@
 {
-  "Starter Pack 1": {
-    "display_name": "Starter Pack: Yugi & Joey",
+  "Legend of Blue Eyes White Dragon_tcg": {
+    "display_name": "Legend of Blue Eyes White Dragon",
     "unlock_cost": 200,
     "pack_cost": 50,
     "cards_per_pack": 5,
-    "cards_by_rarity": {
-      "common": [
-        "Axe Raider",
-        "Celtic Guardian",
-        "Baby Dragon"
-      ],
-      "rare": [
-        "Red-Eyes B. Dragon"
-      ],
-      "sr": [
-        "Dark Magician"
-      ],
-      "ur": [
-        "Blue-Eyes White Dragon"
-      ]
-    },
     "unlock_requirements": {
       "tier_min": 1
     }
@@ -30,21 +14,6 @@
     "unlock_cost": 500,
     "pack_cost": 150,
     "cards_per_pack": 5,
-    "cards_by_rarity": {
-      "common": [
-        "Axe Raider",
-        "Celtic Guardian"
-      ],
-      "rare": [
-        "Summoned Skull"
-      ],
-      "sr": [
-        "Dark Magician"
-      ],
-      "ur": [
-        "Blue-Eyes White Dragon"
-      ]
-    },
     "unlock_requirements": {
       "tier_min": 2,
       "beat_duelist_counts": {

@@ -1,6 +1,6 @@
 {
   "Peter": {
-    "dp": 220,
+    "dp": 170,
     "tier": 3,
     "unlocked_packs": [
       "Starter Pack 1",
@@ -29,9 +29,13 @@
       "The Furious Sea King": 1,
       "Umi": 1,
       "The 13th Grave": 1,
-      "Darkworld Thorns": 1,
+      "Darkworld Thorns": 2,
       "Stop Defense": 1,
-      "Armed Ninja": 1
+      "Armed Ninja": 1,
+      "Steel Ogre Grotto #1": 1,
+      "Flame Ghost": 1,
+      "Firegrass": 1,
+      "Green Phantom King": 1
     },
     "beat_counts": {
       "Yugi Muto": 2,
