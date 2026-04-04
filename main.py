@@ -190,7 +190,8 @@ class ShopFrame(ttk.Frame):
         self.on_after_pack_open = on_after_pack_open
 
         # Keep track of the names in the listboxes
-        self.pack_names: list[str] = []
+        self.pack_names: list[str] = []          # all packs, sorted
+        self.filtered_pack_names: list[str] = [] # visible after search filter
         self.card_names: list[str] = []
 
         # Card preview image reference (avoid GC)
@@ -229,21 +230,31 @@ class ShopFrame(ttk.Frame):
         packs_frame = ttk.LabelFrame(self, text="Packs")
         packs_frame.grid(row=1, column=0, sticky="nsew", padx=8, pady=8)
 
-        packs_frame.rowconfigure(1, weight=1)
+        packs_frame.rowconfigure(2, weight=1)
         packs_frame.columnconfigure(0, weight=1)
 
+        # Pack search bar
+        pack_search_frame = ttk.Frame(packs_frame)
+        pack_search_frame.grid(row=0, column=0, columnspan=2, sticky="ew", padx=2, pady=(4, 2))
+        pack_search_frame.columnconfigure(1, weight=1)
+        ttk.Label(pack_search_frame, text="Search:").grid(row=0, column=0, sticky="w", padx=(0, 4))
+        self.pack_search_var = tk.StringVar()
+        self.pack_search_var.trace_add("write", lambda *_: self._filter_packs())
+        pack_search_entry = ttk.Entry(pack_search_frame, textvariable=self.pack_search_var)
+        pack_search_entry.grid(row=0, column=1, sticky="ew")
+
         self.packs_listbox = tk.Listbox(packs_frame, height=12)
-        self.packs_listbox.grid(row=1, column=0, sticky="nsew")
+        self.packs_listbox.grid(row=2, column=0, sticky="nsew")
 
         packs_scroll = ttk.Scrollbar(
             packs_frame, orient="vertical", command=self.packs_listbox.yview
         )
-        packs_scroll.grid(row=1, column=1, sticky="ns")
+        packs_scroll.grid(row=2, column=1, sticky="ns")
         self.packs_listbox.configure(yscrollcommand=packs_scroll.set)
 
         # Pack buttons
         pack_btn_frame = ttk.Frame(packs_frame)
-        pack_btn_frame.grid(row=2, column=0, columnspan=2, sticky="ew", pady=(4, 0))
+        pack_btn_frame.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(4, 0))
         pack_btn_frame.columnconfigure(0, weight=1)
         pack_btn_frame.columnconfigure(1, weight=1)
 
@@ -468,25 +479,9 @@ class ShopFrame(ttk.Frame):
         # DP label
         self.dp_label_var.set(f"DP: {participant.get('dp', 0)}")
 
-        # Packs
+        # Packs — build full list then apply current search filter
         self.pack_names = sorted(self.game_state.packs.keys())
-        self.packs_listbox.delete(0, tk.END)
-
-        unlocked_packs = set(participant.get("unlocked_packs", []))
-
-        for pack_name in self.pack_names:
-            pack_def = self.game_state.packs[pack_name]
-            display_name = pack_def.get("display_name", pack_name)
-            unlock_cost = pack_def.get("unlock_cost", 0)
-            pack_cost = pack_def.get("pack_cost", 0)
-
-            if pack_name in unlocked_packs:
-                status = "[Unlocked]"
-            else:
-                status = "[Locked]"
-
-            text = f"{display_name} {status}  (Unlock: {unlock_cost} DP, Pack: {pack_cost} DP)"
-            self.packs_listbox.insert(tk.END, text)
+        self._filter_packs()
 
         # Cards
         self.card_names = sorted(self.game_state.cards.keys())
@@ -522,13 +517,38 @@ class ShopFrame(ttk.Frame):
         self.card_image_tk = None
         self.preview_label.config(text="(No card selected)", image="")
 
+    def _filter_packs(self) -> None:
+        """Re-populate the packs listbox using the current search term."""
+        query = self.pack_search_var.get().lower()
+        try:
+            participant = self.get_current_participant()
+        except Exception:
+            return
+        unlocked_packs = set(participant.get("unlocked_packs", []))
+
+        self.filtered_pack_names = [
+            p for p in self.pack_names
+            if query in p.lower()
+            or query in self.game_state.packs[p].get("display_name", "").lower()
+        ]
+
+        self.packs_listbox.delete(0, tk.END)
+        for pack_name in self.filtered_pack_names:
+            pack_def = self.game_state.packs[pack_name]
+            display_name = pack_def.get("display_name", pack_name)
+            unlock_cost = pack_def.get("unlock_cost", 0)
+            pack_cost = pack_def.get("pack_cost", 0)
+            status = "[Unlocked]" if pack_name in unlocked_packs else "[Locked]"
+            text = f"{display_name} {status}  (Unlock: {unlock_cost} DP, Pack: {pack_cost} DP)"
+            self.packs_listbox.insert(tk.END, text)
+
     def _get_selected_pack_name(self) -> str | None:
         sel = self.packs_listbox.curselection()
         if not sel:
             return None
         index = sel[0]
-        if 0 <= index < len(self.pack_names):
-            return self.pack_names[index]
+        if 0 <= index < len(self.filtered_pack_names):
+            return self.filtered_pack_names[index]
         return None
 
     def _get_selected_card_name(self) -> str | None:
