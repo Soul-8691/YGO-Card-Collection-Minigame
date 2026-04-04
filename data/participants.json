@@ -1,6 +1,6 @@
 {
   "Peter": {
-    "dp": 170,
+    "dp": 320,
     "tier": 3,
     "unlocked_packs": [
       "Starter Pack 1",
@@ -35,10 +35,14 @@
       "Steel Ogre Grotto #1": 1,
       "Flame Ghost": 1,
       "Firegrass": 1,
-      "Green Phantom King": 1
+      "Green Phantom King": 2,
+      "Misairuzame": 1,
+      "Trial of Nightmare": 1,
+      "Two-Pronged Attack": 1,
+      "Hane-Hane": 1
     },
     "beat_counts": {
-      "Yugi Muto": 2,
+      "Yugi Muto": 3,
       "Joey Wheeler": 1,
       "Mergo": 1
     },
@@ -81,6 +85,14 @@
         "role": "participant",
         "dp_change": 200,
         "free_pack": "Power Pack 1"
+      },
+      {
+        "timestamp": "2026-04-04T18:44:25",
+        "opponent": "Yugi Muto",
+        "result": "win",
+        "role": "participant",
+        "dp_change": 150,
+        "free_pack": "Legend of Blue Eyes White Dragon_tcg"
       }
     ]
   }
