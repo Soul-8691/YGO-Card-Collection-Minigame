@@ -52,21 +52,44 @@ def play_pack_open_animation(game_state: GameState, card_names: list[str]) -> No
 
     # Card display size (cropped art, no resize)
     card_w, card_h = 100, 100
-    name_area_h = 32  # height reserved for the card name text below the image
-    slot_h = card_h + name_area_h
-    spacing = 10
+    spacing = 24
     margin = 20
     num = len(card_names)
+
+    pygame.init()
+    pygame.display.set_caption("Pack Opening")
+
+    font = pygame.font.SysFont(None, 16)
+    line_h = font.get_linesize()
+
+    def wrap_text(text: str, max_w: int) -> list[str]:
+        """Word-wrap text to fit within max_w pixels."""
+        words = text.split()
+        lines: list[str] = []
+        current = ""
+        for word in words:
+            test = (current + " " + word).strip()
+            if font.size(test)[0] <= max_w:
+                current = test
+            else:
+                if current:
+                    lines.append(current)
+                current = word
+        if current:
+            lines.append(current)
+        return lines or [text]
+
+    # Pre-compute wrapped name lines for each card so we know max line count.
+    wrapped_names: list[list[str]] = [wrap_text(n, card_w) for n in card_names]
+    max_name_lines = max(len(w) for w in wrapped_names)
+    name_area_h = max_name_lines * line_h + 4
+    slot_h = card_h + name_area_h
 
     # Compute window size
     window_w = margin * 2 + num * card_w + (num - 1) * spacing
     window_h = slot_h + margin * 2
 
-    pygame.init()
-    pygame.display.set_caption("Pack Opening")
-
     screen = pygame.display.set_mode((window_w, window_h))
-    font = pygame.font.SysFont(None, 16)
 
     # Load card images
     card_surfaces: list[pygame.Surface] = []
@@ -115,25 +138,34 @@ def play_pack_open_animation(game_state: GameState, card_names: list[str]) -> No
 
         screen.fill((20, 20, 40))
 
-        for i, (surf, name) in enumerate(zip(card_surfaces, card_names)):
+        for i, (surf, lines) in enumerate(zip(card_surfaces, wrapped_names)):
             target_x = margin + i * (card_w + spacing)
             y = margin
             start_x = window_w
             x = start_x + (target_x - start_x) * t
             screen.blit(surf, (x, y))
 
-            # Render card name below the image (word-wrap by truncating)
-            name_surf = font.render(name, True, (220, 220, 220))
-            # Center the name under the card
-            nx = x + (card_w - name_surf.get_width()) / 2
+            # Render wrapped card name lines below the image, clipped to card width.
             ny = y + card_h + 4
-            screen.blit(name_surf, (nx, ny))
+            for line in lines:
+                name_surf = font.render(line, True, (220, 220, 220))
+                nx = x + (card_w - name_surf.get_width()) / 2
+                screen.blit(name_surf, (nx, ny))
+                ny += line_h
 
         pygame.display.flip()
         clock.tick(60)
 
-    # Leave cards on screen briefly
-    pygame.time.delay(700)
+    # Leave cards on screen for ~3.5 seconds, still processing events so the
+    # window stays responsive (and the user can close it early with the X button).
+    hold_ms = 3500
+    hold_start = pygame.time.get_ticks()
+    while pygame.time.get_ticks() - hold_start < hold_ms:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                return
+        clock.tick(30)
     pygame.quit()
 
 
@@ -1459,7 +1491,7 @@ class CollectionFrame(ttk.Frame):
 
         cell_w = 116  # 100px image + 8px padding each side
         canvas_width = self.art_canvas.winfo_width()
-        columns = max(1, canvas_width // cell_w)
+        columns = max(1, canvas_width // cell_w - 1)
         row = 0
         col = 0
 
