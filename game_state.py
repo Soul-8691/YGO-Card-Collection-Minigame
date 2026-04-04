@@ -43,6 +43,7 @@ class GameState:
 
         # packs.json provides optional metadata overrides; card_lists drive the actual packs.
         _packs_meta: Dict[str, Dict[str, Any]] = self._load_json("packs.json")
+        self.packs_json_keys: set = set(_packs_meta.keys())
         self.packs: Dict[str, Dict[str, Any]] = self._load_card_lists_as_packs(_packs_meta)
 
         # name -> id lookup built from output/cardinfo.json

@@ -197,12 +197,15 @@ class ShopFrame(ttk.Frame):
         # Card preview image reference (avoid GC)
         self.card_image_tk = None
 
+        # Debug mode: show all card-list packs and bypass costs
+        self.debug_var = tk.BooleanVar(value=False)
+
         # ----- Layout -----
         self.columnconfigure(0, weight=1)
         self.columnconfigure(1, weight=1)
         self.rowconfigure(1, weight=1)
 
-        # Top: participant + DP + reset
+        # Top: participant + DP + reset + debug
         top_frame = ttk.Frame(self)
         top_frame.grid(row=0, column=0, columnspan=2, sticky="ew", padx=8, pady=8)
         top_frame.columnconfigure(2, weight=1)
@@ -221,10 +224,17 @@ class ShopFrame(ttk.Frame):
         self.dp_label = ttk.Label(top_frame, textvariable=self.dp_label_var)
         self.dp_label.grid(row=0, column=2, sticky="e", padx=(0, 8))
 
+        ttk.Checkbutton(
+            top_frame,
+            text="Debug",
+            variable=self.debug_var,
+            command=self._filter_packs,
+        ).grid(row=0, column=3, sticky="e", padx=(0, 8))
+
         self.reset_button = ttk.Button(
             top_frame, text="Reset Participant", command=self.on_reset_participant
         )
-        self.reset_button.grid(row=0, column=3, sticky="e")
+        self.reset_button.grid(row=0, column=4, sticky="e")
 
         # Left side: packs
         packs_frame = ttk.LabelFrame(self, text="Packs")
@@ -518,8 +528,9 @@ class ShopFrame(ttk.Frame):
         self.preview_label.config(text="(No card selected)", image="")
 
     def _filter_packs(self) -> None:
-        """Re-populate the packs listbox using the current search term."""
+        """Re-populate the packs listbox using the current search term and debug flag."""
         query = self.pack_search_var.get().lower()
+        debug = self.debug_var.get()
         try:
             participant = self.get_current_participant()
         except Exception:
@@ -528,8 +539,11 @@ class ShopFrame(ttk.Frame):
 
         self.filtered_pack_names = [
             p for p in self.pack_names
-            if query in p.lower()
-            or query in self.game_state.packs[p].get("display_name", "").lower()
+            if (debug or p in self.game_state.packs_json_keys)
+            and (
+                query in p.lower()
+                or query in self.game_state.packs[p].get("display_name", "").lower()
+            )
         ]
 
         self.packs_listbox.delete(0, tk.END)
@@ -617,6 +631,18 @@ class ShopFrame(ttk.Frame):
             return
 
         participant_name = self.participant_var.get()
+
+        if self.debug_var.get():
+            participant = self.get_current_participant()
+            if pack_name in participant.get("unlocked_packs", []):
+                messagebox.showinfo("Unlock Pack", f"Pack '{pack_name}' is already unlocked.")
+            else:
+                participant.setdefault("unlocked_packs", []).append(pack_name)
+                self.game_state.save_participants()
+                messagebox.showinfo("Pack Unlocked", f"[Debug] Pack '{pack_name}' unlocked for free!")
+            self.refresh_view()
+            return
+
         ok, reason = self.game_state.can_unlock_pack(participant_name, pack_name)
         if not ok:
             messagebox.showwarning("Cannot Unlock Pack", reason)
@@ -640,14 +666,19 @@ class ShopFrame(ttk.Frame):
             return
 
         participant_name = self.participant_var.get()
-        ok, reason = self.game_state.can_buy_pack(participant_name, pack_name)
-        if not ok:
-            messagebox.showwarning("Cannot Buy Pack", reason)
-            return
+        debug = self.debug_var.get()
+
+        if not debug:
+            ok, reason = self.game_state.can_buy_pack(participant_name, pack_name)
+            if not ok:
+                messagebox.showwarning("Cannot Buy Pack", reason)
+                return
 
         try:
             pulled = self.game_state.open_pack_for_participant(
-                participant_name, pack_name, pay_with_dp=True, require_unlocked=True
+                participant_name, pack_name,
+                pay_with_dp=not debug,
+                require_unlocked=not debug,
             )
         except Exception as e:
             messagebox.showerror("Error Opening Pack", str(e))
@@ -671,6 +702,18 @@ class ShopFrame(ttk.Frame):
             return
 
         participant_name = self.participant_var.get()
+
+        if self.debug_var.get():
+            participant = self.get_current_participant()
+            if card_name in participant.get("unlocked_cards", []):
+                messagebox.showinfo("Unlock Card", f"Card '{card_name}' is already unlocked.")
+            else:
+                participant.setdefault("unlocked_cards", []).append(card_name)
+                self.game_state.save_participants()
+                messagebox.showinfo("Card Unlocked", f"[Debug] Card '{card_name}' unlocked for free!")
+            self.refresh_view()
+            return
+
         ok, reason = self.game_state.can_unlock_card(participant_name, card_name)
         if not ok:
             messagebox.showwarning("Cannot Unlock Card", reason)

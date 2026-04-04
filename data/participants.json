@@ -1,13 +1,16 @@
 {
   "Peter": {
-    "dp": 320,
+    "dp": 20,
     "tier": 3,
     "unlocked_packs": [
       "Starter Pack 1",
       "-Blue-Eyes White Dragon- 20th Anniversary Gold Edition_ocg",
       "Legend of Blue Eyes White Dragon_tcg"
     ],
-    "unlocked_cards": [],
+    "unlocked_cards": [
+      "Blue-Eyes White Dragon",
+      "Dark Magician"
+    ],
     "card_collection": {
       "Axe Raider": 3,
       "Dark Magician": 3,
@@ -39,7 +42,12 @@
       "Misairuzame": 1,
       "Trial of Nightmare": 1,
       "Two-Pronged Attack": 1,
-      "Hane-Hane": 1
+      "Hane-Hane": 1,
+      "Gaia The Fierce Knight": 1,
+      "Gravedigger Ghoul": 1,
+      "Petit Dragon": 1,
+      "Hitotsu-Me Giant": 1,
+      "Armaill": 1
     },
     "beat_counts": {
       "Yugi Muto": 3,
