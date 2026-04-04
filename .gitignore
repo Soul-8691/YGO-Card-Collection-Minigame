@@ -207,3 +207,4 @@ marimo/_lsp/
 __marimo__/
 cards/images/
 cards/json/
+output/cardinfo.json
