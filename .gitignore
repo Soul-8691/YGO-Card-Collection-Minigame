@@ -208,3 +208,4 @@ __marimo__/
 cards/images/
 cards/json/
 output/cardinfo.json
+output/set_chronology.tsv
