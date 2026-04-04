@@ -1,0 +1,2107 @@
+{
+	"decks_processed": 74,
+	"main": [
+		{
+			"name": "Cyber Dragon",
+			"count": 188
+		},
+		{
+			"name": "Trap Dustshoot",
+			"count": 125
+		},
+		{
+			"name": "Zaborg the Thunder Monarch",
+			"count": 97
+		},
+		{
+			"name": "Dekoichi the Battlechanted Locomotive",
+			"count": 96
+		},
+		{
+			"name": "Gravekeeper's Spy",
+			"count": 94
+		},
+		{
+			"name": "Brain Control",
+			"count": 80
+		},
+		{
+			"name": "Graceful Charity",
+			"count": 74
+		},
+		{
+			"name": "Heavy Storm",
+			"count": 72
+		},
+		{
+			"name": "Mirror Force",
+			"count": 72
+		},
+		{
+			"name": "Ring of Destruction",
+			"count": 67
+		},
+		{
+			"name": "Breaker the Magical Warrior",
+			"count": 66
+		},
+		{
+			"name": "Confiscation",
+			"count": 64
+		},
+		{
+			"name": "Mystical Space Typhoon",
+			"count": 62
+		},
+		{
+			"name": "Premature Burial",
+			"count": 62
+		},
+		{
+			"name": "Torrential Tribute",
+			"count": 60
+		},
+		{
+			"name": "Jar of Greed",
+			"count": 57
+		},
+		{
+			"name": "Smashing Ground",
+			"count": 54
+		},
+		{
+			"name": "Call of the Haunted",
+			"count": 53
+		},
+		{
+			"name": "D.D. Warrior Lady",
+			"count": 49
+		},
+		{
+			"name": "Nobleman of Crossout",
+			"count": 47
+		},
+		{
+			"name": "Sangan",
+			"count": 45
+		},
+		{
+			"name": "Book of Moon",
+			"count": 44
+		},
+		{
+			"name": "Sakuretsu Armor",
+			"count": 42
+		},
+		{
+			"name": "Cyber Phoenix",
+			"count": 42
+		},
+		{
+			"name": "Magician of Faith",
+			"count": 41
+		},
+		{
+			"name": "Overload Fusion",
+			"count": 41
+		},
+		{
+			"name": "Mystic Tomato",
+			"count": 40
+		},
+		{
+			"name": "Spirit Reaper",
+			"count": 40
+		},
+		{
+			"name": "Jinzo",
+			"count": 39
+		},
+		{
+			"name": "Enemy Controller",
+			"count": 38
+		},
+		{
+			"name": "Exiled Force",
+			"count": 38
+		},
+		{
+			"name": "Treeborn Frog",
+			"count": 32
+		},
+		{
+			"name": "UFO Turtle",
+			"count": 32
+		},
+		{
+			"name": "Giant Rat",
+			"count": 32
+		},
+		{
+			"name": "Bottomless Trap Hole",
+			"count": 31
+		},
+		{
+			"name": "Widespread Ruin",
+			"count": 29
+		},
+		{
+			"name": "Reinforcement of the Army",
+			"count": 27
+		},
+		{
+			"name": "Giant Trunade",
+			"count": 26
+		},
+		{
+			"name": "Green Gadget",
+			"count": 25
+		},
+		{
+			"name": "Red Gadget",
+			"count": 25
+		},
+		{
+			"name": "Yellow Gadget",
+			"count": 25
+		},
+		{
+			"name": "Mobius the Frost Monarch",
+			"count": 24
+		},
+		{
+			"name": "Upstart Goblin",
+			"count": 22
+		},
+		{
+			"name": "Goldd, Wu-Lord of Dark World",
+			"count": 22
+		},
+		{
+			"name": "Dark World Lightning",
+			"count": 22
+		},
+		{
+			"name": "Injection Fairy Lily",
+			"count": 21
+		},
+		{
+			"name": "Hydrogeddon",
+			"count": 21
+		},
+		{
+			"name": "Future Fusion",
+			"count": 20
+		},
+		{
+			"name": "Thestalos the Firestorm Monarch",
+			"count": 19
+		},
+		{
+			"name": "Morphing Jar",
+			"count": 18
+		},
+		{
+			"name": "Dimension Fusion",
+			"count": 18
+		},
+		{
+			"name": "D.D. Warrior",
+			"count": 18
+		},
+		{
+			"name": "Limiter Removal",
+			"count": 17
+		},
+		{
+			"name": "Solemn Judgment",
+			"count": 17
+		},
+		{
+			"name": "Pot of Avarice",
+			"count": 16
+		},
+		{
+			"name": "Last Will",
+			"count": 16
+		},
+		{
+			"name": "Card Destruction",
+			"count": 15
+		},
+		{
+			"name": "D.D. Assailant",
+			"count": 14
+		},
+		{
+			"name": "Night Assailant",
+			"count": 14
+		},
+		{
+			"name": "Return from the Different Dimension",
+			"count": 13
+		},
+		{
+			"name": "Shrink",
+			"count": 13
+		},
+		{
+			"name": "Sillva, Warlord of Dark World",
+			"count": 12
+		},
+		{
+			"name": "Snipe Hunter",
+			"count": 12
+		},
+		{
+			"name": "Magical Merchant",
+			"count": 12
+		},
+		{
+			"name": "Dimension Wall",
+			"count": 12
+		},
+		{
+			"name": "Creature Swap",
+			"count": 11
+		},
+		{
+			"name": "Bazoo the Soul-Eater",
+			"count": 11
+		},
+		{
+			"name": "Don Zaloog",
+			"count": 11
+		},
+		{
+			"name": "Scapegoat",
+			"count": 10
+		},
+		{
+			"name": "Reckless Greed",
+			"count": 10
+		},
+		{
+			"name": "Elemental HERO Wildheart",
+			"count": 9
+		},
+		{
+			"name": "Dust Tornado",
+			"count": 8
+		},
+		{
+			"name": "Dark Magician of Chaos",
+			"count": 8
+		},
+		{
+			"name": "Mystic Swordsman LV2",
+			"count": 8
+		},
+		{
+			"name": "Goblin Elite Attack Force",
+			"count": 8
+		},
+		{
+			"name": "Swords of Revealing Light",
+			"count": 8
+		},
+		{
+			"name": "Spell Canceller",
+			"count": 6
+		},
+		{
+			"name": "Skill Drain",
+			"count": 6
+		},
+		{
+			"name": "Wave-Motion Cannon",
+			"count": 6
+		},
+		{
+			"name": "Royal Decree",
+			"count": 6
+		},
+		{
+			"name": "Asura Priest",
+			"count": 5
+		},
+		{
+			"name": "Mother Grizzly",
+			"count": 5
+		},
+		{
+			"name": "Magic Cylinder",
+			"count": 5
+		},
+		{
+			"name": "Gigantes",
+			"count": 5
+		},
+		{
+			"name": "Legendary Jujitsu Master",
+			"count": 5
+		},
+		{
+			"name": "Ultimate Offering",
+			"count": 5
+		},
+		{
+			"name": "Gravekeeper's Watcher",
+			"count": 4
+		},
+		{
+			"name": "Fissure",
+			"count": 4
+		},
+		{
+			"name": "Soul Exchange",
+			"count": 3
+		},
+		{
+			"name": "Zombyra the Dark",
+			"count": 3
+		},
+		{
+			"name": "Deck Devastation Virus",
+			"count": 3
+		},
+		{
+			"name": "Abyss Soldier",
+			"count": 3
+		},
+		{
+			"name": "Spiritual Water Art - Aoi",
+			"count": 3
+		},
+		{
+			"name": "Maharaghi",
+			"count": 3
+		},
+		{
+			"name": "Mystic Box",
+			"count": 3
+		},
+		{
+			"name": "Fusilier Dragon, the Dual-Mode Beast",
+			"count": 3
+		},
+		{
+			"name": "Giant Orc",
+			"count": 3
+		},
+		{
+			"name": "Broww, Huntsman of Dark World",
+			"count": 3
+		},
+		{
+			"name": "Card of Safe Return",
+			"count": 3
+		},
+		{
+			"name": "Dragged Down into the Grave",
+			"count": 3
+		},
+		{
+			"name": "Soul of Purity and Light",
+			"count": 3
+		},
+		{
+			"name": "Monster Gate",
+			"count": 3
+		},
+		{
+			"name": "Reasoning",
+			"count": 3
+		},
+		{
+			"name": "Gravity Bind",
+			"count": 3
+		},
+		{
+			"name": "Just Desserts",
+			"count": 3
+		},
+		{
+			"name": "Ojama Trio",
+			"count": 3
+		},
+		{
+			"name": "Secret Barrel",
+			"count": 3
+		},
+		{
+			"name": "Pyramid Turtle",
+			"count": 3
+		},
+		{
+			"name": "Horus the Black Flame Dragon LV4",
+			"count": 3
+		},
+		{
+			"name": "Horus the Black Flame Dragon LV6",
+			"count": 3
+		},
+		{
+			"name": "Blowback Dragon",
+			"count": 3
+		},
+		{
+			"name": "Ancient Gear Cannon",
+			"count": 3
+		},
+		{
+			"name": "Ancient Gear Drill",
+			"count": 3
+		},
+		{
+			"name": "Nightmare's Steelcage",
+			"count": 3
+		},
+		{
+			"name": "Apprentice Magician",
+			"count": 2
+		},
+		{
+			"name": "Old Vindictive Magician",
+			"count": 2
+		},
+		{
+			"name": "Salvage",
+			"count": 2
+		},
+		{
+			"name": "Dark Scorpion - Cliff the Trap Remover",
+			"count": 2
+		},
+		{
+			"name": "Dark Scorpion - Meanae the Thorn",
+			"count": 2
+		},
+		{
+			"name": "Susa Soldier",
+			"count": 2
+		},
+		{
+			"name": "Goblin Attack Force",
+			"count": 2
+		},
+		{
+			"name": "Sacred Crane",
+			"count": 2
+		},
+		{
+			"name": "Gyaku-Gire Panda",
+			"count": 2
+		},
+		{
+			"name": "Level Limit - Area B",
+			"count": 2
+		},
+		{
+			"name": "Ryu Kokki",
+			"count": 2
+		},
+		{
+			"name": "Book of Life",
+			"count": 2
+		},
+		{
+			"name": "Instant Fusion",
+			"count": 2
+		},
+		{
+			"name": "Ceasefire",
+			"count": 2
+		},
+		{
+			"name": "Drillroid",
+			"count": 2
+		},
+		{
+			"name": "Ancient Gear Soldier",
+			"count": 2
+		},
+		{
+			"name": "Rush Recklessly",
+			"count": 2
+		},
+		{
+			"name": "Banisher of the Radiance",
+			"count": 2
+		},
+		{
+			"name": "Hammer Shot",
+			"count": 2
+		},
+		{
+			"name": "Dark Necrofear",
+			"count": 1
+		},
+		{
+			"name": "Dark Ruler Ha Des",
+			"count": 1
+		},
+		{
+			"name": "Mask of Darkness",
+			"count": 1
+		},
+		{
+			"name": "Strike Ninja",
+			"count": 1
+		},
+		{
+			"name": "Nightmare Penguin",
+			"count": 1
+		},
+		{
+			"name": "Yomi Ship",
+			"count": 1
+		},
+		{
+			"name": "Mind Crush",
+			"count": 1
+		},
+		{
+			"name": "Dark Mimic LV3",
+			"count": 1
+		},
+		{
+			"name": "Compulsory Evacuation Device",
+			"count": 1
+		},
+		{
+			"name": "Indomitable Fighter Lei Lei",
+			"count": 1
+		},
+		{
+			"name": "Cybernetic Magician",
+			"count": 1
+		},
+		{
+			"name": "D.D.M. - Different Dimension Master",
+			"count": 1
+		},
+		{
+			"name": "The Creator",
+			"count": 1
+		},
+		{
+			"name": "Back to Square One",
+			"count": 1
+		},
+		{
+			"name": "Lightning Vortex",
+			"count": 1
+		},
+		{
+			"name": "Monster Reincarnation",
+			"count": 1
+		},
+		{
+			"name": "Messenger of Peace",
+			"count": 1
+		},
+		{
+			"name": "Judgment of Anubis",
+			"count": 1
+		},
+		{
+			"name": "Horus the Black Flame Dragon LV8",
+			"count": 1
+		},
+		{
+			"name": "Gravekeeper's Guard",
+			"count": 1
+		},
+		{
+			"name": "The Light - Hex-Sealed Fusion",
+			"count": 1
+		},
+		{
+			"name": "Barrel Dragon",
+			"count": 1
+		},
+		{
+			"name": "Magical Mallet",
+			"count": 1
+		},
+		{
+			"name": "Twin-Headed Behemoth",
+			"count": 1
+		},
+		{
+			"name": "Chiron the Mage",
+			"count": 1
+		},
+		{
+			"name": "Kycoo the Ghost Destroyer",
+			"count": 1
+		}
+	],
+	"side": [
+		{
+			"name": "Dust Tornado",
+			"count": 107
+		},
+		{
+			"name": "Threatening Roar",
+			"count": 65
+		},
+		{
+			"name": "Sakuretsu Armor",
+			"count": 64
+		},
+		{
+			"name": "Royal Decree",
+			"count": 58
+		},
+		{
+			"name": "Mobius the Frost Monarch",
+			"count": 56
+		},
+		{
+			"name": "Des Wombat",
+			"count": 46
+		},
+		{
+			"name": "Bottomless Trap Hole",
+			"count": 45
+		},
+		{
+			"name": "Mind Crush",
+			"count": 40
+		},
+		{
+			"name": "Legendary Jujitsu Master",
+			"count": 40
+		},
+		{
+			"name": "Trap Dustshoot",
+			"count": 34
+		},
+		{
+			"name": "Vanity's Fiend",
+			"count": 30
+		},
+		{
+			"name": "Waboku",
+			"count": 29
+		},
+		{
+			"name": "Cyber Dragon",
+			"count": 21
+		},
+		{
+			"name": "Exiled Force",
+			"count": 16
+		},
+		{
+			"name": "Jinzo",
+			"count": 15
+		},
+		{
+			"name": "Nobleman of Crossout",
+			"count": 15
+		},
+		{
+			"name": "Gravekeeper's Watcher",
+			"count": 15
+		},
+		{
+			"name": "Enemy Controller",
+			"count": 15
+		},
+		{
+			"name": "Gravekeeper's Spy",
+			"count": 15
+		},
+		{
+			"name": "Brain Control",
+			"count": 14
+		},
+		{
+			"name": "Mystik Wok",
+			"count": 13
+		},
+		{
+			"name": "System Down",
+			"count": 13
+		},
+		{
+			"name": "Torrential Tribute",
+			"count": 13
+		},
+		{
+			"name": "King Tiger Wanghu",
+			"count": 13
+		},
+		{
+			"name": "Swords of Revealing Light",
+			"count": 12
+		},
+		{
+			"name": "Cipher Soldier",
+			"count": 12
+		},
+		{
+			"name": "D.D. Assailant",
+			"count": 12
+		},
+		{
+			"name": "Snipe Hunter",
+			"count": 12
+		},
+		{
+			"name": "Smashing Ground",
+			"count": 10
+		},
+		{
+			"name": "Banisher of the Radiance",
+			"count": 9
+		},
+		{
+			"name": "Zaborg the Thunder Monarch",
+			"count": 9
+		},
+		{
+			"name": "Hydrogeddon",
+			"count": 9
+		},
+		{
+			"name": "Solemn Judgment",
+			"count": 8
+		},
+		{
+			"name": "Gravity Bind",
+			"count": 8
+		},
+		{
+			"name": "Kycoo the Ghost Destroyer",
+			"count": 8
+		},
+		{
+			"name": "Giant Trunade",
+			"count": 8
+		},
+		{
+			"name": "Lightning Vortex",
+			"count": 7
+		},
+		{
+			"name": "Magician of Faith",
+			"count": 7
+		},
+		{
+			"name": "Mask of Restrict",
+			"count": 7
+		},
+		{
+			"name": "Thestalos the Firestorm Monarch",
+			"count": 6
+		},
+		{
+			"name": "Deck Devastation Virus",
+			"count": 6
+		},
+		{
+			"name": "Reinforcement of the Army",
+			"count": 6
+		},
+		{
+			"name": "Spell Shield Type-8",
+			"count": 6
+		},
+		{
+			"name": "Ring of Destruction",
+			"count": 6
+		},
+		{
+			"name": "Soul Exchange",
+			"count": 5
+		},
+		{
+			"name": "Spirit Reaper",
+			"count": 5
+		},
+		{
+			"name": "Mystical Space Typhoon",
+			"count": 5
+		},
+		{
+			"name": "Widespread Ruin",
+			"count": 5
+		},
+		{
+			"name": "Dimensional Fissure",
+			"count": 5
+		},
+		{
+			"name": "Mystic Swordsman LV2",
+			"count": 4
+		},
+		{
+			"name": "Spell Canceller",
+			"count": 4
+		},
+		{
+			"name": "My Body as a Shield",
+			"count": 4
+		},
+		{
+			"name": "Royal Oppression",
+			"count": 4
+		},
+		{
+			"name": "Overload Fusion",
+			"count": 4
+		},
+		{
+			"name": "Ninja Grandmaster Sasuke",
+			"count": 4
+		},
+		{
+			"name": "Kuriboh",
+			"count": 4
+		},
+		{
+			"name": "Xing Zhen Hu",
+			"count": 3
+		},
+		{
+			"name": "Amazoness Archer",
+			"count": 3
+		},
+		{
+			"name": "Dekoichi the Battlechanted Locomotive",
+			"count": 3
+		},
+		{
+			"name": "Seven Tools of the Bandit",
+			"count": 3
+		},
+		{
+			"name": "D.D. Survivor",
+			"count": 3
+		},
+		{
+			"name": "Hand of Nephthys",
+			"count": 2
+		},
+		{
+			"name": "Sacred Phoenix of Nephthys",
+			"count": 2
+		},
+		{
+			"name": "Scapegoat",
+			"count": 2
+		},
+		{
+			"name": "Goldd, Wu-Lord of Dark World",
+			"count": 2
+		},
+		{
+			"name": "Book of Moon",
+			"count": 2
+		},
+		{
+			"name": "Metamorphosis",
+			"count": 2
+		},
+		{
+			"name": "Warrior Elimination",
+			"count": 2
+		},
+		{
+			"name": "Cursed Seal of the Forbidden Spell",
+			"count": 2
+		},
+		{
+			"name": "Shrink",
+			"count": 2
+		},
+		{
+			"name": "Dark Dust Spirit",
+			"count": 2
+		},
+		{
+			"name": "Inaba White Rabbit",
+			"count": 2
+		},
+		{
+			"name": "Magic Cylinder",
+			"count": 2
+		},
+		{
+			"name": "Summoner of Illusions",
+			"count": 2
+		},
+		{
+			"name": "Breaker the Magical Warrior",
+			"count": 2
+		},
+		{
+			"name": "Heavy Storm",
+			"count": 2
+		},
+		{
+			"name": "Double Snare",
+			"count": 2
+		},
+		{
+			"name": "Mirror Force",
+			"count": 2
+		},
+		{
+			"name": "Elemental HERO Wildheart",
+			"count": 2
+		},
+		{
+			"name": "Future Fusion",
+			"count": 2
+		},
+		{
+			"name": "Drillroid",
+			"count": 2
+		},
+		{
+			"name": "Nobleman of Extermination",
+			"count": 2
+		},
+		{
+			"name": "Last Will",
+			"count": 2
+		},
+		{
+			"name": "Barrel Behind the Door",
+			"count": 2
+		},
+		{
+			"name": "Pikeru's Circle of Enchantment",
+			"count": 2
+		},
+		{
+			"name": "Wave-Motion Cannon",
+			"count": 2
+		},
+		{
+			"name": "Chiron the Mage",
+			"count": 2
+		},
+		{
+			"name": "Granmarg the Rock Monarch",
+			"count": 1
+		},
+		{
+			"name": "Blowback Dragon",
+			"count": 1
+		},
+		{
+			"name": "Fusilier Dragon, the Dual-Mode Beast",
+			"count": 1
+		},
+		{
+			"name": "Strike Ninja",
+			"count": 1
+		},
+		{
+			"name": "Mind Control",
+			"count": 1
+		},
+		{
+			"name": "Sasuke Samurai #3",
+			"count": 1
+		},
+		{
+			"name": "Level Limit - Area B",
+			"count": 1
+		},
+		{
+			"name": "Ceasefire",
+			"count": 1
+		},
+		{
+			"name": "Robbin' Goblin",
+			"count": 1
+		},
+		{
+			"name": "Don Zaloog",
+			"count": 1
+		},
+		{
+			"name": "Final Attack Orders",
+			"count": 1
+		},
+		{
+			"name": "Sangan",
+			"count": 1
+		},
+		{
+			"name": "Dark World Lightning",
+			"count": 1
+		},
+		{
+			"name": "Skill Drain",
+			"count": 1
+		},
+		{
+			"name": "Nightmare's Steelcage",
+			"count": 1
+		},
+		{
+			"name": "Limiter Removal",
+			"count": 1
+		},
+		{
+			"name": "Premature Burial",
+			"count": 1
+		},
+		{
+			"name": "Jar of Greed",
+			"count": 1
+		},
+		{
+			"name": "The End of Anubis",
+			"count": 1
+		},
+		{
+			"name": "4-Starred Ladybug of Doom",
+			"count": 1
+		},
+		{
+			"name": "Asura Priest",
+			"count": 1
+		},
+		{
+			"name": "D.D. Warrior Lady",
+			"count": 1
+		},
+		{
+			"name": "Confiscation",
+			"count": 1
+		},
+		{
+			"name": "Pot of Avarice",
+			"count": 1
+		},
+		{
+			"name": "Steamroid",
+			"count": 1
+		},
+		{
+			"name": "Emergency Provisions",
+			"count": 1
+		},
+		{
+			"name": "D.D. Designator",
+			"count": 1
+		},
+		{
+			"name": "Exchange",
+			"count": 1
+		},
+		{
+			"name": "Chain Destruction",
+			"count": 1
+		}
+	],
+	"extra": [
+		{
+			"name": "Chimeratech Overdragon",
+			"count": 131
+		},
+		{
+			"name": "Cyber Twin Dragon",
+			"count": 97
+		},
+		{
+			"name": "Cyber End Dragon",
+			"count": 94
+		},
+		{
+			"name": "Dark Balter the Terrible",
+			"count": 38
+		},
+		{
+			"name": "Gatling Dragon",
+			"count": 36
+		},
+		{
+			"name": "Ryu Senshi",
+			"count": 26
+		},
+		{
+			"name": "King Dragun",
+			"count": 25
+		},
+		{
+			"name": "Reaper on the Nightmare",
+			"count": 25
+		},
+		{
+			"name": "Blue-Eyes Ultimate Dragon",
+			"count": 24
+		},
+		{
+			"name": "Dark Blade the Dragon Knight",
+			"count": 23
+		},
+		{
+			"name": "Fiend Skull Dragon",
+			"count": 22
+		},
+		{
+			"name": "The Last Warrior from Another Planet",
+			"count": 21
+		},
+		{
+			"name": "Ojama King",
+			"count": 20
+		},
+		{
+			"name": "Dragoness the Wicked Knight",
+			"count": 18
+		},
+		{
+			"name": "St. Joan",
+			"count": 15
+		},
+		{
+			"name": "Flame Swordsman",
+			"count": 15
+		},
+		{
+			"name": "Cyber Blader",
+			"count": 14
+		},
+		{
+			"name": "Elemental HERO Flame Wingman",
+			"count": 13
+		},
+		{
+			"name": "Darkfire Dragon",
+			"count": 9
+		},
+		{
+			"name": "Gaia the Dragon Champion",
+			"count": 9
+		},
+		{
+			"name": "Master of Oz",
+			"count": 9
+		},
+		{
+			"name": "Cyber Ogre 2",
+			"count": 6
+		},
+		{
+			"name": "Flame Ghost",
+			"count": 6
+		},
+		{
+			"name": "Black Skull Dragon",
+			"count": 5
+		},
+		{
+			"name": "Five-Headed Dragon",
+			"count": 5
+		},
+		{
+			"name": "Super Vehicroid Jumbo Drill",
+			"count": 5
+		},
+		{
+			"name": "Cyberdark Dragon",
+			"count": 4
+		},
+		{
+			"name": "Mokey Mokey King",
+			"count": 4
+		},
+		{
+			"name": "Fusionist",
+			"count": 3
+		},
+		{
+			"name": "Cyber Saurus",
+			"count": 3
+		},
+		{
+			"name": "Dark Paladin",
+			"count": 3
+		},
+		{
+			"name": "Elemental HERO Wild Wingman",
+			"count": 3
+		},
+		{
+			"name": "Bickuribox",
+			"count": 3
+		},
+		{
+			"name": "Skull Knight",
+			"count": 3
+		},
+		{
+			"name": "Giltia the D. Knight",
+			"count": 3
+		},
+		{
+			"name": "Humanoid Worm Drake",
+			"count": 3
+		},
+		{
+			"name": "Rabid Horseman",
+			"count": 3
+		},
+		{
+			"name": "Charubin the Fire Knight",
+			"count": 3
+		},
+		{
+			"name": "Dark Flare Knight",
+			"count": 2
+		},
+		{
+			"name": "Aqua Dragon",
+			"count": 1
+		},
+		{
+			"name": "Dragon Master Knight",
+			"count": 1
+		},
+		{
+			"name": "Karbonala Warrior",
+			"count": 1
+		},
+		{
+			"name": "Twin-Headed Thunder Dragon",
+			"count": 1
+		},
+		{
+			"name": "Roaring Ocean Snake",
+			"count": 1
+		},
+		{
+			"name": "Metal Dragon",
+			"count": 1
+		},
+		{
+			"name": "Elemental HERO Shining Flare Wingman",
+			"count": 1
+		},
+		{
+			"name": "Elemental HERO Thunder Giant",
+			"count": 1
+		}
+	],
+	"total": [
+		{
+			"name": "Cyber Dragon",
+			"count": 209
+		},
+		{
+			"name": "Trap Dustshoot",
+			"count": 159
+		},
+		{
+			"name": "Dust Tornado",
+			"count": 115
+		},
+		{
+			"name": "Gravekeeper's Spy",
+			"count": 109
+		},
+		{
+			"name": "Zaborg the Thunder Monarch",
+			"count": 106
+		},
+		{
+			"name": "Sakuretsu Armor",
+			"count": 106
+		},
+		{
+			"name": "Dekoichi the Battlechanted Locomotive",
+			"count": 99
+		},
+		{
+			"name": "Brain Control",
+			"count": 94
+		},
+		{
+			"name": "Mobius the Frost Monarch",
+			"count": 80
+		},
+		{
+			"name": "Bottomless Trap Hole",
+			"count": 76
+		},
+		{
+			"name": "Graceful Charity",
+			"count": 74
+		},
+		{
+			"name": "Heavy Storm",
+			"count": 74
+		},
+		{
+			"name": "Mirror Force",
+			"count": 74
+		},
+		{
+			"name": "Ring of Destruction",
+			"count": 73
+		},
+		{
+			"name": "Torrential Tribute",
+			"count": 73
+		},
+		{
+			"name": "Breaker the Magical Warrior",
+			"count": 68
+		},
+		{
+			"name": "Mystical Space Typhoon",
+			"count": 67
+		},
+		{
+			"name": "Confiscation",
+			"count": 65
+		},
+		{
+			"name": "Threatening Roar",
+			"count": 65
+		},
+		{
+			"name": "Smashing Ground",
+			"count": 64
+		},
+		{
+			"name": "Royal Decree",
+			"count": 64
+		},
+		{
+			"name": "Premature Burial",
+			"count": 63
+		},
+		{
+			"name": "Nobleman of Crossout",
+			"count": 62
+		},
+		{
+			"name": "Jar of Greed",
+			"count": 58
+		},
+		{
+			"name": "Jinzo",
+			"count": 54
+		},
+		{
+			"name": "Exiled Force",
+			"count": 54
+		},
+		{
+			"name": "Call of the Haunted",
+			"count": 53
+		},
+		{
+			"name": "Enemy Controller",
+			"count": 53
+		},
+		{
+			"name": "D.D. Warrior Lady",
+			"count": 50
+		},
+		{
+			"name": "Magician of Faith",
+			"count": 48
+		},
+		{
+			"name": "Sangan",
+			"count": 46
+		},
+		{
+			"name": "Book of Moon",
+			"count": 46
+		},
+		{
+			"name": "Des Wombat",
+			"count": 46
+		},
+		{
+			"name": "Spirit Reaper",
+			"count": 45
+		},
+		{
+			"name": "Legendary Jujitsu Master",
+			"count": 45
+		},
+		{
+			"name": "Overload Fusion",
+			"count": 45
+		},
+		{
+			"name": "Cyber Phoenix",
+			"count": 42
+		},
+		{
+			"name": "Mind Crush",
+			"count": 41
+		},
+		{
+			"name": "Mystic Tomato",
+			"count": 40
+		},
+		{
+			"name": "Giant Trunade",
+			"count": 34
+		},
+		{
+			"name": "Widespread Ruin",
+			"count": 34
+		},
+		{
+			"name": "Reinforcement of the Army",
+			"count": 33
+		},
+		{
+			"name": "Treeborn Frog",
+			"count": 32
+		},
+		{
+			"name": "UFO Turtle",
+			"count": 32
+		},
+		{
+			"name": "Giant Rat",
+			"count": 32
+		},
+		{
+			"name": "Vanity's Fiend",
+			"count": 30
+		},
+		{
+			"name": "Hydrogeddon",
+			"count": 30
+		},
+		{
+			"name": "Waboku",
+			"count": 29
+		},
+		{
+			"name": "D.D. Assailant",
+			"count": 26
+		},
+		{
+			"name": "Thestalos the Firestorm Monarch",
+			"count": 25
+		},
+		{
+			"name": "Solemn Judgment",
+			"count": 25
+		},
+		{
+			"name": "Green Gadget",
+			"count": 25
+		},
+		{
+			"name": "Red Gadget",
+			"count": 25
+		},
+		{
+			"name": "Yellow Gadget",
+			"count": 25
+		},
+		{
+			"name": "Goldd, Wu-Lord of Dark World",
+			"count": 24
+		},
+		{
+			"name": "Snipe Hunter",
+			"count": 24
+		},
+		{
+			"name": "Dark World Lightning",
+			"count": 23
+		},
+		{
+			"name": "Upstart Goblin",
+			"count": 22
+		},
+		{
+			"name": "Future Fusion",
+			"count": 22
+		},
+		{
+			"name": "Injection Fairy Lily",
+			"count": 21
+		},
+		{
+			"name": "Swords of Revealing Light",
+			"count": 20
+		},
+		{
+			"name": "Gravekeeper's Watcher",
+			"count": 19
+		},
+		{
+			"name": "Morphing Jar",
+			"count": 18
+		},
+		{
+			"name": "Last Will",
+			"count": 18
+		},
+		{
+			"name": "Dimension Fusion",
+			"count": 18
+		},
+		{
+			"name": "Limiter Removal",
+			"count": 18
+		},
+		{
+			"name": "D.D. Warrior",
+			"count": 18
+		},
+		{
+			"name": "Pot of Avarice",
+			"count": 17
+		},
+		{
+			"name": "Card Destruction",
+			"count": 15
+		},
+		{
+			"name": "Shrink",
+			"count": 15
+		},
+		{
+			"name": "Night Assailant",
+			"count": 14
+		},
+		{
+			"name": "Mystik Wok",
+			"count": 13
+		},
+		{
+			"name": "Return from the Different Dimension",
+			"count": 13
+		},
+		{
+			"name": "System Down",
+			"count": 13
+		},
+		{
+			"name": "King Tiger Wanghu",
+			"count": 13
+		},
+		{
+			"name": "Scapegoat",
+			"count": 12
+		},
+		{
+			"name": "Cipher Soldier",
+			"count": 12
+		},
+		{
+			"name": "Sillva, Warlord of Dark World",
+			"count": 12
+		},
+		{
+			"name": "Magical Merchant",
+			"count": 12
+		},
+		{
+			"name": "Mystic Swordsman LV2",
+			"count": 12
+		},
+		{
+			"name": "Don Zaloog",
+			"count": 12
+		},
+		{
+			"name": "Dimension Wall",
+			"count": 12
+		},
+		{
+			"name": "Creature Swap",
+			"count": 11
+		},
+		{
+			"name": "Bazoo the Soul-Eater",
+			"count": 11
+		},
+		{
+			"name": "Gravity Bind",
+			"count": 11
+		},
+		{
+			"name": "Elemental HERO Wildheart",
+			"count": 11
+		},
+		{
+			"name": "Banisher of the Radiance",
+			"count": 11
+		},
+		{
+			"name": "Spell Canceller",
+			"count": 10
+		},
+		{
+			"name": "Reckless Greed",
+			"count": 10
+		},
+		{
+			"name": "Deck Devastation Virus",
+			"count": 9
+		},
+		{
+			"name": "Kycoo the Ghost Destroyer",
+			"count": 9
+		},
+		{
+			"name": "Soul Exchange",
+			"count": 8
+		},
+		{
+			"name": "Dark Magician of Chaos",
+			"count": 8
+		},
+		{
+			"name": "Lightning Vortex",
+			"count": 8
+		},
+		{
+			"name": "Goblin Elite Attack Force",
+			"count": 8
+		},
+		{
+			"name": "Wave-Motion Cannon",
+			"count": 8
+		},
+		{
+			"name": "Magic Cylinder",
+			"count": 7
+		},
+		{
+			"name": "Skill Drain",
+			"count": 7
+		},
+		{
+			"name": "Mask of Restrict",
+			"count": 7
+		},
+		{
+			"name": "Asura Priest",
+			"count": 6
+		},
+		{
+			"name": "Spell Shield Type-8",
+			"count": 6
+		},
+		{
+			"name": "Mother Grizzly",
+			"count": 5
+		},
+		{
+			"name": "Dimensional Fissure",
+			"count": 5
+		},
+		{
+			"name": "Gigantes",
+			"count": 5
+		},
+		{
+			"name": "Ultimate Offering",
+			"count": 5
+		},
+		{
+			"name": "Blowback Dragon",
+			"count": 4
+		},
+		{
+			"name": "Fusilier Dragon, the Dual-Mode Beast",
+			"count": 4
+		},
+		{
+			"name": "My Body as a Shield",
+			"count": 4
+		},
+		{
+			"name": "Royal Oppression",
+			"count": 4
+		},
+		{
+			"name": "Nightmare's Steelcage",
+			"count": 4
+		},
+		{
+			"name": "Ninja Grandmaster Sasuke",
+			"count": 4
+		},
+		{
+			"name": "Drillroid",
+			"count": 4
+		},
+		{
+			"name": "Kuriboh",
+			"count": 4
+		},
+		{
+			"name": "Fissure",
+			"count": 4
+		},
+		{
+			"name": "Zombyra the Dark",
+			"count": 3
+		},
+		{
+			"name": "Abyss Soldier",
+			"count": 3
+		},
+		{
+			"name": "Spiritual Water Art - Aoi",
+			"count": 3
+		},
+		{
+			"name": "Maharaghi",
+			"count": 3
+		},
+		{
+			"name": "Mystic Box",
+			"count": 3
+		},
+		{
+			"name": "Level Limit - Area B",
+			"count": 3
+		},
+		{
+			"name": "Ceasefire",
+			"count": 3
+		},
+		{
+			"name": "Xing Zhen Hu",
+			"count": 3
+		},
+		{
+			"name": "Giant Orc",
+			"count": 3
+		},
+		{
+			"name": "Amazoness Archer",
+			"count": 3
+		},
+		{
+			"name": "Broww, Huntsman of Dark World",
+			"count": 3
+		},
+		{
+			"name": "Card of Safe Return",
+			"count": 3
+		},
+		{
+			"name": "Dragged Down into the Grave",
+			"count": 3
+		},
+		{
+			"name": "Soul of Purity and Light",
+			"count": 3
+		},
+		{
+			"name": "Monster Gate",
+			"count": 3
+		},
+		{
+			"name": "Reasoning",
+			"count": 3
+		},
+		{
+			"name": "Just Desserts",
+			"count": 3
+		},
+		{
+			"name": "Ojama Trio",
+			"count": 3
+		},
+		{
+			"name": "Secret Barrel",
+			"count": 3
+		},
+		{
+			"name": "Pyramid Turtle",
+			"count": 3
+		},
+		{
+			"name": "Seven Tools of the Bandit",
+			"count": 3
+		},
+		{
+			"name": "Horus the Black Flame Dragon LV4",
+			"count": 3
+		},
+		{
+			"name": "Horus the Black Flame Dragon LV6",
+			"count": 3
+		},
+		{
+			"name": "Ancient Gear Cannon",
+			"count": 3
+		},
+		{
+			"name": "Ancient Gear Drill",
+			"count": 3
+		},
+		{
+			"name": "Chiron the Mage",
+			"count": 3
+		},
+		{
+			"name": "D.D. Survivor",
+			"count": 3
+		},
+		{
+			"name": "Apprentice Magician",
+			"count": 2
+		},
+		{
+			"name": "Old Vindictive Magician",
+			"count": 2
+		},
+		{
+			"name": "Hand of Nephthys",
+			"count": 2
+		},
+		{
+			"name": "Sacred Phoenix of Nephthys",
+			"count": 2
+		},
+		{
+			"name": "Strike Ninja",
+			"count": 2
+		},
+		{
+			"name": "Metamorphosis",
+			"count": 2
+		},
+		{
+			"name": "Salvage",
+			"count": 2
+		},
+		{
+			"name": "Warrior Elimination",
+			"count": 2
+		},
+		{
+			"name": "Cursed Seal of the Forbidden Spell",
+			"count": 2
+		},
+		{
+			"name": "Dark Scorpion - Cliff the Trap Remover",
+			"count": 2
+		},
+		{
+			"name": "Dark Scorpion - Meanae the Thorn",
+			"count": 2
+		},
+		{
+			"name": "Susa Soldier",
+			"count": 2
+		},
+		{
+			"name": "Dark Dust Spirit",
+			"count": 2
+		},
+		{
+			"name": "Inaba White Rabbit",
+			"count": 2
+		},
+		{
+			"name": "Goblin Attack Force",
+			"count": 2
+		},
+		{
+			"name": "Summoner of Illusions",
+			"count": 2
+		},
+		{
+			"name": "Sacred Crane",
+			"count": 2
+		},
+		{
+			"name": "Gyaku-Gire Panda",
+			"count": 2
+		},
+		{
+			"name": "Double Snare",
+			"count": 2
+		},
+		{
+			"name": "Ryu Kokki",
+			"count": 2
+		},
+		{
+			"name": "Book of Life",
+			"count": 2
+		},
+		{
+			"name": "Instant Fusion",
+			"count": 2
+		},
+		{
+			"name": "Nobleman of Extermination",
+			"count": 2
+		},
+		{
+			"name": "Ancient Gear Soldier",
+			"count": 2
+		},
+		{
+			"name": "Barrel Behind the Door",
+			"count": 2
+		},
+		{
+			"name": "Pikeru's Circle of Enchantment",
+			"count": 2
+		},
+		{
+			"name": "Rush Recklessly",
+			"count": 2
+		},
+		{
+			"name": "Hammer Shot",
+			"count": 2
+		},
+		{
+			"name": "Granmarg the Rock Monarch",
+			"count": 1
+		},
+		{
+			"name": "Dark Necrofear",
+			"count": 1
+		},
+		{
+			"name": "Dark Ruler Ha Des",
+			"count": 1
+		},
+		{
+			"name": "Mask of Darkness",
+			"count": 1
+		},
+		{
+			"name": "Nightmare Penguin",
+			"count": 1
+		},
+		{
+			"name": "Yomi Ship",
+			"count": 1
+		},
+		{
+			"name": "Mind Control",
+			"count": 1
+		},
+		{
+			"name": "Dark Mimic LV3",
+			"count": 1
+		},
+		{
+			"name": "Compulsory Evacuation Device",
+			"count": 1
+		},
+		{
+			"name": "Sasuke Samurai #3",
+			"count": 1
+		},
+		{
+			"name": "Robbin' Goblin",
+			"count": 1
+		},
+		{
+			"name": "Indomitable Fighter Lei Lei",
+			"count": 1
+		},
+		{
+			"name": "Final Attack Orders",
+			"count": 1
+		},
+		{
+			"name": "Cybernetic Magician",
+			"count": 1
+		},
+		{
+			"name": "D.D.M. - Different Dimension Master",
+			"count": 1
+		},
+		{
+			"name": "The Creator",
+			"count": 1
+		},
+		{
+			"name": "Back to Square One",
+			"count": 1
+		},
+		{
+			"name": "Monster Reincarnation",
+			"count": 1
+		},
+		{
+			"name": "Messenger of Peace",
+			"count": 1
+		},
+		{
+			"name": "Judgment of Anubis",
+			"count": 1
+		},
+		{
+			"name": "The End of Anubis",
+			"count": 1
+		},
+		{
+			"name": "Horus the Black Flame Dragon LV8",
+			"count": 1
+		},
+		{
+			"name": "4-Starred Ladybug of Doom",
+			"count": 1
+		},
+		{
+			"name": "Gravekeeper's Guard",
+			"count": 1
+		},
+		{
+			"name": "The Light - Hex-Sealed Fusion",
+			"count": 1
+		},
+		{
+			"name": "Steamroid",
+			"count": 1
+		},
+		{
+			"name": "Barrel Dragon",
+			"count": 1
+		},
+		{
+			"name": "Magical Mallet",
+			"count": 1
+		},
+		{
+			"name": "Emergency Provisions",
+			"count": 1
+		},
+		{
+			"name": "Twin-Headed Behemoth",
+			"count": 1
+		},
+		{
+			"name": "D.D. Designator",
+			"count": 1
+		},
+		{
+			"name": "Exchange",
+			"count": 1
+		},
+		{
+			"name": "Chain Destruction",
+			"count": 1
+		}
+	]
+}
