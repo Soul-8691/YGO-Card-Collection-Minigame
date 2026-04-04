@@ -8,6 +8,24 @@ from datetime import datetime
 
 PACK_OPEN_SOUND_RELATIVE = "sounds/pack_open.wav"
 
+# Canonical rarity names and their pull weights.
+RARITY_WEIGHTS: Dict[str, float] = {
+    "Common": 0.75,
+    "Rare": 0.18,
+    "Super Rare": 0.06,
+    "Ultra Rare": 0.0067,
+    "Secret Rare": 0.0033,
+}
+
+# Aliases that map short forms to the canonical names above.
+_RARITY_ALIASES: Dict[str, str] = {
+    "C": "Common",
+    "R": "Rare",
+    "SR": "Super Rare",
+    "UR": "Ultra Rare",
+    "ScR": "Secret Rare",
+}
+
 
 class GameState:
     """
@@ -20,9 +38,12 @@ class GameState:
         self.default_cards_per_pack = default_cards_per_pack
 
         self.cards: Dict[str, Dict[str, Any]] = self._load_json("cards.json")
-        self.packs: Dict[str, Dict[str, Any]] = self._load_json("packs.json")
         self.duelists: Dict[str, Dict[str, Any]] = self._load_json("duelists.json")
         self.participants: Dict[str, Dict[str, Any]] = self._load_json("participants.json")
+
+        # packs.json provides optional metadata overrides; card_lists drive the actual packs.
+        _packs_meta: Dict[str, Dict[str, Any]] = self._load_json("packs.json")
+        self.packs: Dict[str, Dict[str, Any]] = self._load_card_lists_as_packs(_packs_meta)
 
         # name -> id lookup built from output/cardinfo.json
         self.cardinfo_name_to_id: Dict[str, int] = self._load_cardinfo_name_to_id()
@@ -37,6 +58,51 @@ class GameState:
         with path.open("r", encoding="utf-8") as f:
             data = json.load(f)
         return {card["name"]: card["id"] for card in data.get("data", [])}
+
+    def _load_card_lists_as_packs(
+        self, packs_meta: Dict[str, Dict[str, Any]]
+    ) -> Dict[str, Dict[str, Any]]:
+        """
+        Build the pack catalog from output/card_lists/*.json.
+        Each JSON file becomes one pack keyed by its stem name.
+        packs_meta (from packs.json) may override display_name, unlock_cost,
+        pack_cost, cards_per_pack, and unlock_requirements for any pack.
+        Packs with no cards of a supported rarity are skipped.
+        """
+        card_lists_dir = self.base_path.parent / "output" / "card_lists"
+        if not card_lists_dir.exists():
+            return {}
+
+        packs: Dict[str, Dict[str, Any]] = {}
+
+        for json_path in sorted(card_lists_dir.glob("*.json")):
+            pack_key = json_path.stem
+            with json_path.open("r", encoding="utf-8") as f:
+                card_data: Dict[str, List[str]] = json.load(f)
+
+            # Build cards_by_rarity using canonical rarity names.
+            cards_by_rarity: Dict[str, List[str]] = {r: [] for r in RARITY_WEIGHTS}
+            for card_name, rarities in card_data.items():
+                for rarity in rarities:
+                    canonical = _RARITY_ALIASES.get(rarity, rarity)
+                    if canonical in RARITY_WEIGHTS:
+                        cards_by_rarity[canonical].append(card_name)
+
+            # Skip packs that have no pullable cards at all.
+            if not any(cards_by_rarity.values()):
+                continue
+
+            meta = packs_meta.get(pack_key, {})
+            packs[pack_key] = {
+                "display_name": meta.get("display_name", pack_key),
+                "unlock_cost": meta.get("unlock_cost", 0),
+                "pack_cost": meta.get("pack_cost", 0),
+                "cards_per_pack": meta.get("cards_per_pack", self.default_cards_per_pack),
+                "unlock_requirements": meta.get("unlock_requirements", {"tier_min": 1}),
+                "_cards_by_rarity": cards_by_rarity,
+            }
+
+        return packs
 
     def _load_json(self, filename: str) -> Dict[str, Any]:
         path = self.base_path / filename
@@ -75,30 +141,25 @@ class GameState:
 
     # ---------- Pack / card helpers ----------
 
-    @staticmethod
-    def _choose_rarity(rarity_weights: Dict[str, float]) -> str:
-        rarities = list(rarity_weights.keys())
-        weights = list(rarity_weights.values())
-        # random.choices returns a list; we want the first element
-        return random.choices(rarities, weights=weights, k=1)[0]
-
     def _open_pack_raw(self, pack_def: Dict[str, Any]) -> List[str]:
         """
         Open a pack definition and return a list of card names (no side effects).
+        Rarity is chosen by RARITY_WEIGHTS; only rarities with at least one card
+        in this pack are eligible.
         """
         cards_per_pack = pack_def.get("cards_per_pack", self.default_cards_per_pack)
-        rarity_weights = pack_def["rarity_weights"]
-        cards_by_rarity = pack_def["cards_by_rarity"]
+        cards_by_rarity: Dict[str, List[str]] = pack_def["_cards_by_rarity"]
+
+        available = [(r, RARITY_WEIGHTS[r]) for r in RARITY_WEIGHTS if cards_by_rarity.get(r)]
+        if not available:
+            return []
+
+        rarities, weights = zip(*available)
 
         opened: List[str] = []
-
         for _ in range(cards_per_pack):
-            rarity = self._choose_rarity(rarity_weights)
-            pool = cards_by_rarity.get(rarity, [])
-            if not pool:
-                # If rarity has no cards, skip this slot
-                continue
-            opened.append(random.choice(pool))
+            rarity = random.choices(rarities, weights=weights, k=1)[0]
+            opened.append(random.choice(cards_by_rarity[rarity]))
 
         return opened
 

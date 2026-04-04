@@ -4,12 +4,6 @@
     "unlock_cost": 200,
     "pack_cost": 50,
     "cards_per_pack": 5,
-    "rarity_weights": {
-      "common": 0.75,
-      "rare": 0.18,
-      "sr": 0.06,
-      "ur": 0.01
-    },
     "cards_by_rarity": {
       "common": [
         "Axe Raider",
@@ -36,12 +30,6 @@
     "unlock_cost": 500,
     "pack_cost": 150,
     "cards_per_pack": 5,
-    "rarity_weights": {
-      "common": 0.6,
-      "rare": 0.25,
-      "sr": 0.1,
-      "ur": 0.05
-    },
     "cards_by_rarity": {
       "common": [
         "Axe Raider",

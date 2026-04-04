@@ -3,7 +3,9 @@
     "dp": 220,
     "tier": 3,
     "unlocked_packs": [
-      "Starter Pack 1"
+      "Starter Pack 1",
+      "-Blue-Eyes White Dragon- 20th Anniversary Gold Edition_ocg",
+      "Legend of Blue Eyes White Dragon_tcg"
     ],
     "unlocked_cards": [],
     "card_collection": {
@@ -11,7 +13,12 @@
       "Dark Magician": 3,
       "Celtic Guardian": 3,
       "Baby Dragon": 3,
-      "Blue-Eyes White Dragon": 1
+      "Blue-Eyes White Dragon": 3,
+      "Charubin the Fire Knight": 1,
+      "Ray & Temperature": 1,
+      "Root Water": 1,
+      "Skull Red Bird": 1,
+      "Sand Stone": 1
     },
     "beat_counts": {
       "Yugi Muto": 2,
