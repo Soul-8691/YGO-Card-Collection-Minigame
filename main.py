@@ -1340,6 +1340,13 @@ class CollectionFrame(ttk.Frame):
     def _on_art_canvas_configure(self, event):
         canvas_width = event.width
         self.art_canvas.itemconfig(self.art_window, width=canvas_width)
+        # Rebuild gallery with updated column count when canvas is resized
+        if self.show_art_var.get() and self.art_inner.winfo_children():
+            try:
+                participant = self.get_current_participant()
+                self._build_art_gallery(self._get_filtered_collection(participant))
+            except Exception:
+                pass
 
     # ---- Filtering & sorting helpers ----
 
@@ -1442,15 +1449,17 @@ class CollectionFrame(ttk.Frame):
 
     def _build_art_gallery(self, collection: dict):
         """
-        Build a grid of full card art images (120x175) with names and owned counts,
-        using current sorting.
+        Build a grid of 100x100 card art images with names and owned counts,
+        using current sorting. Column count is computed from the canvas width.
         """
         self._clear_art_gallery()
 
         if not collection:
             return
 
-        columns = 4
+        cell_w = 116  # 100px image + 8px padding each side
+        canvas_width = self.art_canvas.winfo_width()
+        columns = max(1, canvas_width // cell_w)
         row = 0
         col = 0
 

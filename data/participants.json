@@ -1,20 +1,22 @@
 {
   "Peter": {
-    "dp": 70,
-    "tier": 2,
+    "dp": 270,
+    "tier": 3,
     "unlocked_packs": [
       "Starter Pack 1"
     ],
     "unlocked_cards": [],
     "card_collection": {
       "Axe Raider": 3,
-      "Dark Magician": 2,
-      "Celtic Guardian": 1,
-      "Baby Dragon": 2
+      "Dark Magician": 3,
+      "Celtic Guardian": 3,
+      "Baby Dragon": 2,
+      "Blue-Eyes White Dragon": 1
     },
     "beat_counts": {
       "Yugi Muto": 2,
-      "Joey Wheeler": 1
+      "Joey Wheeler": 1,
+      "Mergo": 1
     },
     "duel_history": [
       {
@@ -39,6 +41,21 @@
         "result": "win",
         "role": "participant",
         "dp_change": 120,
+        "free_pack": "Power Pack 1"
+      },
+      {
+        "timestamp": "2026-04-04T17:25:35",
+        "opponent": "Mergo",
+        "result": "win",
+        "role": "npc",
+        "dp_change": 0
+      },
+      {
+        "timestamp": "2026-04-04T17:26:20",
+        "opponent": "Mergo",
+        "result": "win",
+        "role": "participant",
+        "dp_change": 200,
         "free_pack": "Power Pack 1"
       }
     ]
