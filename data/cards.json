@@ -1,0 +1,27 @@
+{
+  "Dark Magician": {
+    "price": 50,
+    "unlock_cost": 200,
+    "max_copies": 3,
+    "unlock_requirements": {
+      "tier_min": 1,
+      "beat_duelist_counts": {
+        "Yugi Muto": 2
+      }
+    }
+  },
+
+  "Blue-Eyes White Dragon": {
+    "price": 80,
+    "unlock_cost": 300,
+    "max_copies": 3,
+    "unlock_requirements": {
+      "tier_min": 2
+    }
+  },
+
+  "Axe Raider": {
+    "price": 10,
+    "max_copies": 3
+  }
+}

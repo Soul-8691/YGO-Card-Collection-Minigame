@@ -1,0 +1,50 @@
+{
+  "Yugi Muto": {
+    "type": "anime",
+    "tier": 1,
+    "dp_reward": 150,
+    "free_pack_reward": "Starter Pack 1",
+    "teams": {
+      "Classic Yugi": {
+        "weight": 0.7,
+        "deck_file": "decks/yugi_classic.ydk"
+      },
+      "Gods Yugi": {
+        "weight": 0.3,
+        "deck_file": "decks/yugi_gods.ydk"
+      }
+    }
+  },
+
+  "Joey Wheeler": {
+    "type": "anime",
+    "tier": 1,
+    "dp_reward": 120,
+    "free_pack_rewards": [
+        { "pack": "Starter Pack 1", "weight": 0.8 },
+        { "pack": "Power Pack 1",  "weight": 0.2 }
+    ],
+    "teams": {
+      "Red-Eyes Beatdown": {
+        "weight": 0.8,
+        "deck_file": "decks/Stage 1 - Joey Wheeler.ydk"
+      },
+      "Gamble Joey": {
+        "weight": 0.2,
+        "deck_file": "decks/Stage 1 - Joey Wheeler.ydk"
+      }
+    }
+  },
+
+  "Mergo": {
+    "type": "friend",
+    "tier": 2,
+    "dp_reward": 200,
+    "free_pack_reward": "Power Pack 1",
+    "card_pool": [
+      "Ash Blossom & Joyous Spring",
+      "Effect Veiler",
+      "Dark Ruler No More"
+    ]
+  }
+}

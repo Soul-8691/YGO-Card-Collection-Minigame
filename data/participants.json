@@ -1,0 +1,46 @@
+{
+  "Peter": {
+    "dp": 70,
+    "tier": 2,
+    "unlocked_packs": [
+      "Starter Pack 1"
+    ],
+    "unlocked_cards": [],
+    "card_collection": {
+      "Axe Raider": 3,
+      "Dark Magician": 2,
+      "Celtic Guardian": 1,
+      "Baby Dragon": 2
+    },
+    "beat_counts": {
+      "Yugi Muto": 2,
+      "Joey Wheeler": 1
+    },
+    "duel_history": [
+      {
+        "timestamp": "2025-12-06T10:06:31",
+        "opponent": "Yugi Muto",
+        "result": "win",
+        "role": "participant",
+        "dp_change": 150,
+        "free_pack": "Starter Pack 1"
+      },
+      {
+        "timestamp": "2025-12-06T10:06:45",
+        "opponent": "Yugi Muto",
+        "result": "win",
+        "role": "participant",
+        "dp_change": 150,
+        "free_pack": "Starter Pack 1"
+      },
+      {
+        "timestamp": "2025-12-06T10:06:52",
+        "opponent": "Joey Wheeler",
+        "result": "win",
+        "role": "participant",
+        "dp_change": 120,
+        "free_pack": "Power Pack 1"
+      }
+    ]
+  }
+}
