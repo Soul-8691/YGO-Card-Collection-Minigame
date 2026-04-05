@@ -34,10 +34,20 @@ _ID_RE = re.compile(r"^(\d+)")
 
 
 def load_cardinfo(path):
-    """Return dict of card_id (int) -> card_name."""
+    """Return dict of card_id (int) -> card_name.
+    Includes all alt art IDs from card_images so every print maps to the same name.
+    """
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
-    return {card["id"]: card["name"] for card in data["data"]}
+    id_to_name = {}
+    for card in data["data"]:
+        name = card["name"]
+        id_to_name[card["id"]] = name
+        for img in card.get("card_images", []):
+            img_id = img.get("id")
+            if img_id is not None:
+                id_to_name[img_id] = name
+    return id_to_name
 
 
 def parse_ydk(path):
