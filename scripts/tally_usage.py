@@ -10,11 +10,11 @@ import urllib.error
 import urllib.request
 from collections import defaultdict
 
-GALLERY_URL = "https://formatlibrary.com/api/events/gallery/chimeratech"
+GALLERY_URL = "https://formatlibrary.com/api/events/gallery/goat"
 EVENT_URL = "https://formatlibrary.com/api/events/{abbrev}"
 DECK_URL = "https://formatlibrary.com/api/decks/{deck_id}"
 UA = "Mozilla/5.0 (compatible; YGOrange-tally/1.0)"
-OUTPUT_PATH = "card_usage.json"
+OUTPUT_PATH = "output/card_usage.json"
 DELAY = 0.15
 
 

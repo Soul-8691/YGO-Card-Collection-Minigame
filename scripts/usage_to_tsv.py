@@ -8,7 +8,7 @@ import json
 import sys
 
 INPUT_PATH = "output/card_usage.json"
-BANLIST_PATH = "output/december_2006_banlist.json"
+BANLIST_PATH = "ban/april_2005_banlist.json"
 OUTPUT_PATH = "output/card_usage.tsv"
 
 RESTRICTION_WEIGHT = {
