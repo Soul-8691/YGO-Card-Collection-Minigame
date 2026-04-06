@@ -10,7 +10,7 @@ import urllib.error
 import urllib.request
 from collections import defaultdict
 
-GALLERY_URL = "https://formatlibrary.com/api/events/gallery/goat"
+GALLERY_URL = "https://formatlibrary.com/api/events/gallery/reaper"
 EVENT_URL = "https://formatlibrary.com/api/events/{abbrev}"
 DECK_URL = "https://formatlibrary.com/api/decks/{deck_id}"
 UA = "Mozilla/5.0 (compatible; YGOrange-tally/1.0)"
