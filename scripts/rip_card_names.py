@@ -11,7 +11,7 @@ import urllib.parse
 import urllib.request
 
 API_BASE = "https://formatlibrary.com/api/cards"
-DEFAULT_FILTER = "ocg:eq:true,ocgDate:lte:2005-09-01"
+DEFAULT_FILTER = "tcg:eq:true,tcgDate:lte:2006-03-25"
 
 
 def fetch_page(page: int, limit: int, sort: str, filter_expr: str, timeout: int) -> list[dict]:

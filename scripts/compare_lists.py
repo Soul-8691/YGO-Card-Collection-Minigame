@@ -14,10 +14,10 @@ SCRIPT_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 ROOT_DIR = SCRIPT_DIR.parent
 OUTPUT_DIR = ROOT_DIR / "output"
 
-CHIMERATECH_FILE = OUTPUT_DIR / "chimeratech.txt"
-AIRBLADE_FILE = OUTPUT_DIR / "airblade_ocg.txt"
-CHIMERATECH_ONLY_FILE = OUTPUT_DIR / "chimeratech_only.txt"
-AIRBLADE_ONLY_FILE = OUTPUT_DIR / "airblade_ocg_only.txt"
+CHIMERATECH_FILE = OUTPUT_DIR / "reaper.txt"
+AIRBLADE_FILE = OUTPUT_DIR / "victory_ocg.txt"
+CHIMERATECH_ONLY_FILE = OUTPUT_DIR / "reaper_only.txt"
+AIRBLADE_ONLY_FILE = OUTPUT_DIR / "victory_ocg_only.txt"
 
 
 def load_card_list(filepath):
