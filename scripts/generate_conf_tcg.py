@@ -15,10 +15,10 @@ import urllib.error
 import os
 import sys
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-CARD_LIST_FILE = os.path.join(SCRIPT_DIR, "cards.txt")
-BAN_LIST_FILE = os.path.join(SCRIPT_DIR, "2006-09-01.raw.json")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "TCG-2006-09-01.conf")
+SCRIPT_DIR = os.getcwd()
+CARD_LIST_FILE = os.path.join(SCRIPT_DIR, "output/reaper.txt")
+BAN_LIST_FILE = os.path.join(SCRIPT_DIR, "ban/2005-09-01.raw.json")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "output/TCG-2005-09-01.conf")
 
 API_BASE = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
 BATCH_SIZE = 20  # How many card names to send per API request (pipe-separated)
